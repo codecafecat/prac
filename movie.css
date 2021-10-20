@@ -1,0 +1,44 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1440px;
+  position: relative;
+  overflow: hidden;
+}
+.container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -1;
+}
+.container .top {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1440px;
+  color: snow;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.container .top h1 {
+  position: relative;
+  top: 45vh;
+  margin: auto;
+}
+.container .top p {
+  position: relative;
+  top: 45vh;
+  margin: auto;
+}
+/*# sourceMappingURL=movie.css.map */
