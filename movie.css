@@ -23,6 +23,17 @@ body {
      object-fit: cover;
   z-index: -1;
 }
+.container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  z-index: -2;
+}
+
 .container .top {
   width: 100vw;
   height: 100vh;
